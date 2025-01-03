@@ -1,0 +1,140 @@
+/*CSS Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4e1d2;
+  color: #4e3629;
+}
+
+.navbar-custom {
+  background-color: #f7cba7;
+}
+
+.cardHighlight {
+  min-height: 100%;
+}
+
+.orders-totalprice {
+  color: darkred;
+}
+
+.orders-itemname {
+  color: darkgreen;
+}
+
+.card-custom-bg {
+  background-color: #f0f8ff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+a {
+  color: #ff9800;
+}
+
+a:hover {
+  color: #333333;
+}
+
+.banner-title {
+  padding: 25px;
+  font-size: 4rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.banner-link {
+  font-size: 1.2rem;
+}
+
+.carousel-img {
+  margin-top: 30px;
+  object-fit: cover;
+  height: 500px;
+}
+
+/* Highlights */
+.feature-box {
+  border: 3px solid #f0a500; /* Custom color */
+  margin: 0;
+  padding: 25px; /* Inner padding */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: scale(1.02); /* Slightly enlarges the icon */
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.8); /* Adds a pink glow */
+}
+
+.featured-title {
+  padding: 25px;
+  font-size: 3rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.form-container {
+  background-color: #f4d7bf;
+}
+
+.profile-bg {
+  background-color: antiquewhite;
+}
+
+/* Products Page */
+.card {
+  position: relative;
+  overflow: hidden;
+  height: 400px; /* Set a fixed height for the card */
+  width: 100%; /* Ensure the card takes up the full width of the column */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Add shadow effect */
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+  color: white; /* Text color remains white */
+}
+
+.card-body {
+  height: 100%; /* Make sure the card body takes up the full height */
+  z-index: 0; /* Ensure the body content is under the overlay */
+}
+
+.card img {
+  object-fit: cover; /* Ensure the image covers the entire card without stretching */
+}
+
+/* Pagination */
+.pagination-wrapper {
+  display: flex;
+  justify-content: center; /* Center the pagination */
+  align-items: center; /* Vertically center the pagination */
+  margin-top: 20px; /* Space between products and pagination */
+}
+
+.pagination-item.active {
+  background-color: #f0a500;
+  color: white;
+}
+.pagination-item:hover {
+  background-color: #f0a500;
+  color: white;
+}
+.pagination {
+  margin-top: 20px;
+}
